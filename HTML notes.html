@@ -93,6 +93,11 @@ Multiple selectors can be chained together to select an element. This raises the
 Nested elements can be selected by separating selectors with a space.
 The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.
 Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+In the default box model, box dimensions are affected by border thickness and padding.
+The box-sizing property controls the box model used by the browser.
+The default value of the box-sizing property is content-box.
+The value for the new box model is border-box.
+The border-box model is not affected by border thickness or padding.
 
 
 <!DOCTYPE html>

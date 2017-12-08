@@ -1,7 +1,26 @@
+table {
+ border-collapse: collapse;	
+ text-align: center;
+	
+}
+
+
+
+
 body {
- background-color: LightSlateGrey;
- color: PeachPuff;
+ background-color: DodgerBlue;
+ color: Black;
  font-size: 14px;
- font-family: Helvetica;}
+ font-family: Helvetica;
+ }
  
+tr {
+	height:100px;
+	width: 40px;	
+} 
+
+th {
+background-color: SeaGreen;	
+	
+}
  

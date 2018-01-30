@@ -8,7 +8,7 @@ table {
 
 
 body {
- background-color: DodgerBlue;
+ background-color: CadetBlue;
  color: Black;
  font-size: 14px;
  font-family: Helvetica;
@@ -20,12 +20,12 @@ tr {
 } 
 
 th {
-background-color: SeaGreen;	
+background-color: BurlyWood;	
 	
 }
  
 td:hover {
-background-color: White;}
+background-color: CornflowerBlue;}
 
 h1 {
 text-align: center;

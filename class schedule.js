@@ -1,8 +1,5 @@
 
 
-
-
-
 <script>
 var course = "Gym";
 switch (course) {

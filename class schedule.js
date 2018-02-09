@@ -1,25 +1,30 @@
 
 
 <script>
-var course = "Gym";
-switch (course) {
    
-    case ("Gym"):
+   var searchBox = document.getElementById("button")
+
+   
+   
+
+switch (searchBox.value) {
+   
+    case "Gym":
         course = "Gym";
         break;
-    case ("Science"):
+    case "Science":
         course = "Science";
         break;
-    case ("English"):
+    case "English":
         course = "English";
         break;
-    case ("Computer programming"):
+    case "Computer programming":
         course = "Computer programming";
         break;
-    case ("Computer programming"):
+    case "Computer programming":
         course = "Computer programming";
         break;
-    case  ("Religion"):
+    case  "Religion":
         course = "Religion";
 }
 document.getElementById("class").innerHTML = "You have " + course;

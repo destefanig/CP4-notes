@@ -1,34 +1,35 @@
+/* This the Javascript aspect of my schedule*/
 
-
-<script>
-   
-   var searchBox = document.getElementById("button")
+function yeet () {
 
    
+   var searchBox = document.getElementById("myImput")
+
+   
    
 
-switch (searchBox.value) {
+switch (searchBox) {
    
-    case "Gym":
-        console.log('participation only?'):
+    case 'Gym':
+        console.log('participation only?')
         break;
-    case "Science":
-        console.log('eportfolio'):
+    case 'Science':
+        console.log('eportfolio')
         break;
-    case "English":
-        course = "English":
+    case 'English':
+        console.log('alliteration emphasizes')
         break;
-    case "Computer programming":
-        course = "Computer programming":
+    case 'Computer programming':
+        console.log('python')
         break;
-    case "Computer programming":
-        course = "Computer programming":
+    case 'Music':
+        console.log('PSP')
         break;
-    case  "Religion":
-        course = "Religion";
+    case  'Religion':
+        console.log('the jewish diaspora');
 }
-document.getElementById("class").innerHTML = "You have " + course;
-</script>
+ 
 
 
-MAKE ID BUTTON ON HTML!!!!!!!!!
+}
+

@@ -6,7 +6,7 @@ function yeet () {
    var searchBox = document.getElementById("myImput")
 
    
-   
+   /* Ideally, this would highlight all the course whos name is written in the searchbar above my schedule */
 
 switch (searchBox) {
    

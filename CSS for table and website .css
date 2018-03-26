@@ -1,5 +1,3 @@
-/* this will modify the way things appear in my schedule */
-
 table {
  border-collapse: collapse;	
  text-align: center;
@@ -7,7 +5,7 @@ table {
 }
 
 
-/* this should change the appearance of or colour of the boxes that make up my table */
+
 
 body {
  background-color: CadetBlue;
@@ -25,7 +23,7 @@ tr {
 th {
 background-color: BurlyWood;	
 	
-/* this code will allow whatever box your mouse is on to turn into a different shade of blue */	
+	
 }
  
 td:hover {

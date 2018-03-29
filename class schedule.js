@@ -4,11 +4,12 @@
 
    
    var organize;
-   function yeet()
+   function yeet(){  
    
    
    
-   var organize = document.getElementById("CLASS")
+   var organize = document.getElementById("CLASS");
+   
 
    
    
@@ -26,11 +27,12 @@ switch (CLASS) {
 			organize = "French";
 }
 
-var WhichClass = document.getElementsByClassName(organize);
-	console.log(WhichClass);
+var organize = document.getElementsByClassName(organize);
+	console.log(organize);
 
-	for (i = 0; i < WhichClass.length; i++) {
-		WhichClass[i].style.backgroundColor = "lime";
+	for (i = 0; i < organize.length; i++) {
+		organize[i].style.backgroundColor = "lime";
 	}
     
 
+   }

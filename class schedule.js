@@ -8,7 +8,7 @@
    
    
    
-   var organize = document.getElementById("CLASS");
+   var organize = document.getElementById("CLASS").value;
    
 
    
@@ -19,13 +19,15 @@ switch (CLASS) {
    
    case "English":
 			organize = "English";
-			
+	break;		
    case "Math":
 			organize = "Math";
-			
+	break;		
    case "French":
 			organize = "French";
+			break;
 }
+
 
 var organize = document.getElementsByClassName(organize);
 	console.log(organize);

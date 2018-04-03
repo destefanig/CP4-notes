@@ -1,6 +1,6 @@
 /* This the Javascript aspect of my schedule*/
 
-
+/*  yOUR WEBSITE IDEA IS SHOE RALTED WHERE YOU CAN BROWSE THE PRICES FOR TRENDING SHOES */
 
    
    var organize;

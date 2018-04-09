@@ -25,6 +25,12 @@ switch (CLASS) {
 	break;		
    case "French":
 			organize = "French";
+	break;
+	case "Science":
+			organize = "Science";
+	break;
+	case "Computer programming":
+			organize = "Computer programming";
 			break;
 }
 

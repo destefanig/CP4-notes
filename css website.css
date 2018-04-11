@@ -1,0 +1,20 @@
+ h1 {
+	 
+	text-align: center;
+	color: blue;
+	 
+ }
+ 
+ p {
+	 text-align: left;
+ }
+
+ .navigation {
+	 background-color: black;
+	 color: white;
+	 border: 100px;
+	 font-size: 35px;
+	 margin: 0;
+    padding: 0;
+    width: 60px;
+ } 

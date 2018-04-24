@@ -7,6 +7,7 @@
  
  p {
 	 text-align: left;
+	 font-family: arial;
  }
 
  .navigation {
@@ -15,11 +16,13 @@
 	border: 0;
     font-size: 17px;	
     padding: 14px 16px;
-    width: 40px;
+    width: 100%;
 	text-align: center;
+	float: center;
+	overflow: hidden;
  } 
  
  html {
 	 
-	 background-color: green;
+	 background-color: lightgreen;
  }

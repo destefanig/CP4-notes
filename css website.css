@@ -5,9 +5,19 @@
 	 
  }
  
+ h2 {
+	color: #3333CC; 
+	 
+	 
+ }
+ 
+ 
+ 
  p {
 	 text-align: left;
 	 font-family: arial;
+	 color: darkblue;
+	 text-align: center;
  }
 
  .navigation {
@@ -20,9 +30,17 @@
 	text-align: center;
 	float: center;
 	overflow: hidden;
+	
  } 
  
  html {
 	 
-	 background-color: lightgreen;
+	
+ }
+ 
+ .pictures {
+	 
+height: 300px;
+width: 300px;	 
+text-align: center;	 
  }

@@ -1,0 +1,46 @@
+ h1 {
+	 
+	text-align: center;
+	color: blue;
+	 
+ }
+ 
+ h2 {
+	color: #3333CC; 
+	 
+	 
+ }
+ 
+ 
+ 
+ p {
+	 text-align: left;
+	 font-family: arial;
+	 color: green;
+	 text-align: left;
+ }
+
+ .navigation {
+	background-color: black;
+	color: white;
+	border: 0;
+    font-size: 17px;	
+    padding: 14px 16px;
+    width: 100%;
+	text-align: center;
+	float: center;
+	overflow: hidden;
+	
+ } 
+ 
+ html {
+	 
+	
+ }
+ 
+ .pictures {
+	 
+height: 350px;
+width: 350px;	 
+text-align: left;	 
+ }

@@ -44,3 +44,28 @@ height: 350px;
 width: 350px;	 
 text-align: left;	 
  }
+ 
+ .background-image {
+
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

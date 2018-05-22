@@ -14,7 +14,8 @@
 			
 			<script>
 			function myFunction() {
-			document.getElementById("cost").innerHTML = "400$";
+			document.getElementById("costVapor").innerHTML = "400$";
+			document.getElementById("cost").style.filter = "blur(5px)";
 			}	
 			</script>
 			
@@ -31,15 +32,15 @@
 			<h2> Welcome to Shoe Stop, here you can browse among a variety of shoes and view their current price!</h2>
   </br>
 	
-		<div class="pictures">	
+		<div class="background-image">	
 	
 	
 	 <img id="cost" src="https://sneakernews.com/wp-content/uploads/2018/03/off-white-nike-vapormax-where-to-buy-3.jpg" onclick="myFunction()" style="width:350px;height:275px;"/>
-	<p><strong>Off white vapormax</strong></p>
-	
+	<p><strong>Off white vapormax</strong><span id="costVapor"></span>  </p>
+	</div>
 		
 		
-		</div>
+		
 		
 		
 		
@@ -49,11 +50,15 @@
 		
 		
 		
-		
+		      
 		
 		
 		<img src="https://sneakerbardetroit.com/wp-content/uploads/2018/02/Sean-Wotherspoon-Nike-Air-Max-1-97-AJ4219-400-Side.png" style="width:350px;height:275px;">
 		<p><strong>Air Max 1/97 Sean Wotherspoon</strong></p>
+		
+		
+		<img src="https://sneakernews.com/wp-content/uploads/2018/02/off-white-air-jordan-1-aq0818-100-release-info-7.jpg" style="width:350px;height:275px;">
+		<p><strong>Off white jordan 1</strong></p>
 		
 		
 		</body>

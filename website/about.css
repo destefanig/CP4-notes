@@ -1,3 +1,6 @@
+/* this is my css page for the about page, which I used to modify the color, font, among other things on this page */
+
+
 p {
 	color: blue;
 	text-align: center;
@@ -17,8 +20,14 @@ p {
 	text-align: center;
 	float: center;
 	overflow: hidden;
+	display: block;
+	font-family: monospace;
 	
 }
 
 
-<div class="background-image">
+h1 {
+	
+	text-align: center;
+	color: blue;
+}

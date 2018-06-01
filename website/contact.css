@@ -1,8 +1,10 @@
+/* this is the css page for contact, where I modify the color, font and many other things about my page */
+
 h1 {
 	
 	color: blue;
-	font-family: arial
-	
+	font-family: arial;
+	text-align: center
 	
 }
 
@@ -17,4 +19,6 @@ h1 {
 	text-align: center;
 	float: center;
 	overflow: hidden;
-}
+	display: block;
+	font-family: monospace;
+} 

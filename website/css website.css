@@ -2,7 +2,7 @@
 	 
 	text-align: center;
 	color: blue;
-	 
+	font-family: arial;
  }
  
  h2 {
@@ -55,18 +55,13 @@ text-align: left;
   right: 0;
   z-index: 1;
   
+ }
   
-  
-  
-.myFunction {
-	
-	
-	
-	
-	
-	
-	
-}
+  #grid {
+	display: grid;  
+	  
+  }
+
   
   
   

@@ -30,6 +30,8 @@
 	text-align: center;
 	float: center;
 	overflow: hidden;
+	display: block;
+	font-family: monospace;
 	
  } 
  

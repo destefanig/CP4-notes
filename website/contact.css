@@ -1,13 +1,11 @@
-
-
-
 h1 {
-text-align: center;
-color: blue; 	
-
+	
+	color: blue;
+	font-family: arial
 	
 	
 }
+
 
 .navigation {
 	background-color: black;
@@ -19,5 +17,4 @@ color: blue;
 	text-align: center;
 	float: center;
 	overflow: hidden;
-	
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- welcome to my website -->
 	<html>
 		<link rel="stylesheet" type="text/css" href="css website.css">
 		<head>
@@ -13,26 +13,35 @@
 			<body>
 			
 			<script>
+			<!-- this onclick funtion will reveal the price of the shoe and blur the image-->
 			function myFunction() {
-			document.getElementById("costVapor").innerHTML = " 400$";
-			document.getElementById("cost").style.filter = "blur(5px)";
-			}	
-			
-			function Function() {
-			document.getElementById("costJordan").innerHTML = " 500$";
+			document.getElementById("costVapor").innerHTML = " 1089.06$USD";
 			document.getElementById("blur").style.filter = "blur(5px)";
 			}	
 			
+			function Function() {
+			document.getElementById("costJordan").innerHTML = " 2690$USD";
+			document.getElementById("price").style.filter = "blur(5px)";
+			}	
 			
+			function theFunction() {
+			document.getElementById("costAir").innerHTML = " 933.38$USD";
+			document.getElementById("money").style.filter = "blur(5px)";
+			}	
 			
+			function aFunction() {
+			document.getElementById("costYeezy").innerHTML = " 1321$USD";
+			document.getElementById("expense").style.filter = "blur(5px)";
+			}	
 			
+		
 			
 			
 			
 			
 			</script>
 			
-			
+			<!-- this code will create a navigation bar where i can get to and from different sections of my website-->
 		<body background="https://dcassetcdn.com/design_img/1370795/533425/533425_7077171_1370795_f6a8dad8_image.png">	
 		
 		<div class="navigation">
@@ -45,33 +54,30 @@
 			<h2> Welcome to Shoe Stop, here you can browse among a variety of shoes and view their current price!</h2>
   </br>
 	
-		<div class="background-image">	
+			
+	<!-- the following code adds the image on to the site and displays its name beneath it-->
+	<!-- the images are linked to id's that activate the onclick function-->
 	
-	
-	 <img id="blur" src="https://sneakernews.com/wp-content/uploads/2018/03/off-white-nike-vapormax-where-to-buy-3.jpg" onclick="myFunction()" style="width:350px;height:275px;"/>
-	<p><strong>Off white vapormax</strong><span id="costVapor"></span>  </p>
-	</div>
+		<img id="blur" src="https://sneakernews.com/wp-content/uploads/2018/03/off-white-nike-vapormax-where-to-buy-3.jpg" onclick="myFunction()" style="width:350px;height:275px;"/>
+		<p><strong>Offwhite vapormax</strong><span id="costVapor"></span>  </p> 
+
+
 		
 		
-		
-		
-		
-		
-		
-		<img id="cost"src="https://sneakernews.com/wp-content/uploads/2018/02/off-white-air-jordan-1-aq0818-100-release-info-7.jpg" onclick="Function()" style="width:350px;height:275px;">
+		<img id="price" src="https://sneakernews.com/wp-content/uploads/2018/02/off-white-air-jordan-1-aq0818-100-release-info-7.jpg" onclick="Function()" style="width:350px;height:275px;">
 		<p><strong>Off white jordan 1</strong><span id="costJordan"></span></p>
 		
+		     
 		
 		
-		      
+		<img id="money" src="https://sneakerbardetroit.com/wp-content/uploads/2018/02/Sean-Wotherspoon-Nike-Air-Max-1-97-AJ4219-400-Side.png" onclick="theFunction()" style="width:350px;height:275px;">
+		<p><strong>Air Max 1/97 Sean Wotherspoon</strong><span id="costAir"></span></p>
 		
 		
-		<img src="https://sneakerbardetroit.com/wp-content/uploads/2018/02/Sean-Wotherspoon-Nike-Air-Max-1-97-AJ4219-400-Side.png" style="width:350px;height:275px;">
-		<p><strong>Air Max 1/97 Sean Wotherspoon</strong></p>
-		
-		
-		<img src="https://sneakernews.com/wp-content/uploads/2018/02/off-white-air-jordan-1-aq0818-100-release-info-7.jpg" style="width:350px;height:275px;">
-		<p><strong>Off white jordan 1</strong></p>
+	
+		<img id="expense" src="https://static.highsnobiety.com/wp-content/uploads/2017/12/08164201/adidas-yeezy-boost-350-v2-blue-tint-release-date-price-01-480x320.jpg" onclick="aFunction()" style="width:350px;height:275px;">
+		<p><strong>yeezy blue tint</strong><span id="costYeezy"></span></p>
+	
 		
 		
 		</body>

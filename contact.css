@@ -1,9 +1,24 @@
+/* this is the css page for contact, where I modify the color, font and many other things about my page */
+
 h1 {
 	
 	color: blue;
-	font-family: arial
-	
+	font-family: arial;
+	text-align: center
 	
 }
 
 
+.navigation {
+	background-color: black;
+	color: white;
+	border: 0;
+    font-size: 17px;	
+    padding: 14px 16px;
+    width: 100%;
+	text-align: center;
+	float: center;
+	overflow: hidden;
+	display: block;
+	font-family: monospace;
+} 

@@ -1,11 +1,38 @@
 
-
+/* this is the css page for the recently dropped section */
 
 h1 {
 text-align: center;
 color: blue; 	
-
+font-family: arial;
 	
 	
 }
 
+.navigation {
+	background-color: black;
+	color: white;
+	border: 0;
+    font-size: 17px;	
+    padding: 14px 16px;
+    width: 100%;
+	text-align: center;
+	float: center;
+	overflow: hidden;
+	display: block;
+	font-family: monospace;
+}
+
+p {
+	
+	color: green;
+	
+	
+}
+
+h2 {
+	
+	color: blue;
+	
+	
+}
